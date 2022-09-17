@@ -2,7 +2,6 @@ import {Link} from 'react-router-dom'
 import Company from '../pages/Company'
 import Contact from '../pages/Contact'
 import Home from '../pages/Home'
-import NewProject from '../pages/NewProject'
 
 import Container from './Container'
 
