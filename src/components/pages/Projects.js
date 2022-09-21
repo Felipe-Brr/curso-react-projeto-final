@@ -5,7 +5,7 @@ import Container from "../layout/Container"
 import Loading from "../layout/Loading"
 import LinkButton from "../layout/LinkButton"
 
-import styles from './Project.module.css'
+import styles from './Projects.module.css'
 import ProjectCard from "../project/ProjectCard"
 import { useState, useEffect } from "react"
 
@@ -13,7 +13,7 @@ function Projects(){
 
     const [projects, setProjects] = useState([])
     const [removeLoading, setRemoveLoading] = useState(false)
-    const [projectMessage, setProjectMessage] = useState([])
+    const [projectMessage, setProjectMessage] = useState(false)
 
     const location = useLocation()
     let message = ''
