@@ -7,9 +7,40 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1300,
+      "services": [
+        {
+          "name": "teste",
+          "cost": "200",
+          "description": "Irá estilizar landing page",
+          "id": "3a709323-da25-45c1-94a7-268b1ca51ff1"
+        },
+        {
+          "name": "meu projeto 123",
+          "cost": "1100",
+          "description": "1",
+          "id": "aae534d7-b18d-4d3c-a1b3-24faf02b7f72"
+        }
+      ],
       "id": 1
+    },
+    {
+      "name": "Teste",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Contratar Dev Front-End",
+          "cost": "1000",
+          "description": "Irá estilizar landing page",
+          "id": "875156d5-3e71-4c45-9724-a1d20b9f7b37"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
