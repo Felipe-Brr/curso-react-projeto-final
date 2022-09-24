@@ -1,4 +1,4 @@
-import {parse, v4 as uuidv4} from 'uuid'
+import {v4 as uuidv4} from 'uuid'
 
 import styles from './Project.module.css'
 
@@ -68,7 +68,6 @@ function Project() {
 
     function createService(project){
         setMessage('')
-        setType('')
 
         // last service
         const lastService = project.services[project.services.length -1]
