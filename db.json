@@ -7,7 +7,7 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 200,
+      "cost": 1300,
       "services": [
         {
           "name": "novo serviço",
@@ -20,9 +20,39 @@
           "cost": "100",
           "description": "faz isso",
           "id": "4a13da78-a979-4acf-8aa1-3ec0b49f37e1"
+        },
+        {
+          "name": "novo serviço",
+          "cost": "1000",
+          "description": "finaliza",
+          "id": "b7d605fa-6d49-459b-a2ae-20551cb15a1f"
+        },
+        {
+          "name": "novo serviço",
+          "cost": "100",
+          "description": "finaliza",
+          "id": "8d028c8e-153d-405d-b766-b841a99fc368"
         }
       ],
       "id": 1
+    },
+    {
+      "name": "Teste",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Contratar Dev Front-End",
+          "cost": "1000",
+          "description": "Irá estilizar landing page",
+          "id": "875156d5-3e71-4c45-9724-a1d20b9f7b37"
+        }
+      ],
+      "id": 2
     }
   ],
   "categories": [
